@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {width: 100%; height: auto; image-resolution: 50%; margin-left: 0px ;
+    border-image-outset: 0px;
+    }
+
+body {
+background-image: url(kopiting1.jpeg);
+background-color: rgb(240, 231, 237);
+background-repeat: no-repeat;
+background-size: cover;
+color : white ;
+}
+
+h1 {font-family: 'courir new';
+text-align: center;
+font-size: 70px;
+text-shadow: 2px 6px 8px rgb(216, 141, 49);}
+
+h2 {font-family: "monaco", monospace;
+text-align: center;
+font-size: 25px;
+width: 1200px;
+margin: auto;
+border-style: double;
+border-width: 5px;
+border-color:rgb(119, 119, 94)}
+
+
+h3 {font-family: "monaco", monospace;
+font-size: 20px;
+padding: 10px;
+width: 1000px;
+margin: auto;
+text-decoration: underline;}
+
+p {font-family: "monaco", monospace;
+font-size: 18px;
+text-align: justify;
+padding: 10px;
+width: 900px;
+margin: auto;}
+
+div {
+    /*font-family: "monaco", monospace;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(218, 228, 190);
+    width: 1100px;
+    border: 8px solid rgb(235, 177, 107);*/
+    padding: 0px;
+    margin: 0px;}
+
+ol {font-family: "monaco", monospace;
+    font-size: 18px;
+    text-align: justify;}
+
+ul {font-family: "monaco", monospace;
+    font-size: 18px;
+    text-align: justify;
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+    list-style-type: circle;}
+
+  
+    #Daftar  {font-family: monospace;
+        border-collapse: collapse;
+        width: 1100px;
+        margin:auto;
+        padding: 30px;}
+      
+    #Daftar td, #Daftar th {
+        border: 3px solid #161616;
+        padding: 8px; 
+        font-size: 18px;}
+      
+#Daftar tr:nth-child(even){background-color: #cfdfc4;}
+      
+#Daftar tr:nth-child(odd) {background-color: #d0d6aa;}
+      
+#Daftar th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #bfc99e;
+        color: rgb(6, 5, 5);
+        text-align: center;}
+
+    p {outline-color:rgb(151, 151, 134);
+    }
+    p.outset {outline-style: outset;
+    }
+
+    a:link, a:visited {
+        /*background-color: rgb(56, 28, 10);*/
+        color: rgb(0, 0, 0);
+        border: rgb(127, 133, 74);
+        padding: 0;
+        /*text-align: center;*/
+        text-decoration: none;
+        /*display: inline-block;*/
+      }
+    a:hover, a:active {
+        background-color: rgb(118, 83, 29);
+        color: white;}
+    
+    a {font-family: monospace;
+        font-size: 20px;
+        padding: 0px;
+        width: 180px;
+        margin-left: 0px;}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(61, 35, 14);
+}
+
+.topnav a {
+  float: left;
+  color: #CC9544;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: brown;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: brown;
+  color: white;
+}
+.center {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
